@@ -1,89 +1,45 @@
-# My current Arch + Hyprland rice — looking for feedback
+# My Arch Linux + Hyprland rice — looking for feedback!
 
 Hey everyone!
 
-I've been working on my Linux rice for quite a while now, and I finally wanted to share it with the community.
-
-I'm currently running **Arch Linux with Hyprland**, and I've been trying to build a desktop that feels clean, minimal and visually consistent while still being practical for everyday use.
-
-I'm especially interested in getting some honest feedback from the community because I feel like the setup is getting close to where I want it to be, but there are still quite a few things that could probably be improved.
+I've been working on my Linux rice and wanted to share my current setup with the community. I'm running **Arch Linux with Hyprland** and have been focusing on creating a desktop that combines a clean, modern aesthetic with practical everyday functionality.
 
 ### My setup
-
 - **OS:** Arch Linux
-- **WM/Compositor:** Hyprland
+- **Compositor:** Hyprland
 - **Shell / UI:** AGS
 - **Application launcher:** Rofi
 - **Terminal:** Kitty
-- **Visualizer:** Cava
+- **Audio visualizer:** Cava
 
-The majority of the UI you see in the video is built around my custom **AGS bar**.
+### Custom AGS bar
 
-### The bar
+The main feature of my setup is my custom AGS bar, which combines several useful elements in a single, cohesive interface.
 
-I've tried to keep the bar relatively clean while still giving myself quick access to the things I actually use.
+- **Center:** Cava, integrated directly into the bar for real-time audio visualization.
+- **Right side:** A notification center accessible through a bell icon, alongside an integrated calendar for quick access to the date and upcoming days.
+- **Far right:** A power menu with options to lock the screen, reboot, or shut down.
 
-In the **center**, I have **Cava** integrated directly into the bar as a real-time audio visualizer. I really like the idea of having the visualization react to my music without needing a separate window or widget somewhere on the desktop.
+I've tried to keep everything accessible without making the bar feel cluttered.
 
-On the **right side**, I have a notification center that can be opened through the bell icon.
+### Design and aesthetics
 
-Next to the notification button, I've integrated a **calendar**, so I can quickly check the date and upcoming days without opening another application.
+I'm going for a clean, dark and modern look with transparency, subtle visual effects and a consistent overall design. I want the wallpaper to remain an important part of the desktop while keeping the interface functional and unobtrusive.
 
-And on the far right, there is a small **power menu** with options for:
+My goal is to find the right balance between aesthetics, minimalism and usability. I don't want to add widgets just for the sake of customization; I'd rather have every element serve a purpose.
 
-- Locking the screen
-- Rebooting
-- Shutting down
+### I'd love your feedback!
 
-The goal was to keep everything accessible without making the bar feel overloaded.
+I'm sharing this because I'd genuinely appreciate some **honest, constructive criticism** from the community.
 
-### The overall aesthetic
+What would you change or improve? I'm open to suggestions regarding the bar layout, colors, transparency, typography, icons, animations, spacing, widgets or the overall visual direction.
 
-For the visual style, I'm going for a combination of **minimalism, transparency and a slightly futuristic/modern look**.
+If you have experience with Hyprland and AGS, I'd especially love to hear your thoughts. Recommendations for useful widgets, interesting configurations or projects that could help me take this rice to the next level are also very welcome.
 
-I've been experimenting with transparent elements, spacing, animations, borders and different levels of opacity to make the desktop feel more cohesive.
+I'm happy with how the setup is coming together, but I'm always looking for ways to make it more polished, cohesive and practical for everyday use.
 
-I also wanted the wallpaper to remain an important part of the desktop instead of covering it with too many UI elements.
+**What would you keep, what would you change, and what do you think is missing?**
 
-At the same time, I don't want to fall into the trap of making everything minimal just for the sake of minimalism.
+Thanks for checking out my setup, and I look forward to hearing your suggestions!
 
-My main goal is:
-
-**Make it look good, but make sure everything actually has a purpose.**
-
-### I'd love your feedback
-
-This is the main reason I'm posting this here.
-
-I'd really appreciate some **honest and constructive criticism**.
-
-If you were using this setup, what would you change?
-
-Would you:
-
-- Change the overall color scheme?
-- Adjust the transparency or opacity?
-- Change the bar layout?
-- Redesign the notification center?
-- Change the calendar?
-- Modify or remove the Cava visualization?
-- Change the icons?
-- Add more animations?
-- Reduce the amount of information?
-- Add something that is currently missing?
-- Change the spacing or proportions?
-- Go for a completely different visual direction?
-
-I'm especially interested in suggestions that would make the rice feel **more polished and cohesive**, rather than simply adding more widgets.
-
-I'm also very interested in seeing what other people have done with **Hyprland + AGS**, so if you have any ideas, configurations, themes, widgets or projects that you think would fit this setup, feel free to share them.
-
-And please don't hesitate to criticize it.
-
-I'm not posting this just to get compliments — I'd genuinely like to know **what you think looks wrong, what feels unnecessary, and what could be done better.**
-
-I'm still experimenting with the setup, so I'm completely open to changing things.
-
-Thanks for checking it out!
-
-**What would you change if this were your rice?** 👀
+**My Reddit profile:** https://www.reddit.com/user/yola_codium/
