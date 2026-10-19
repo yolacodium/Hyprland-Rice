@@ -1,0 +1,8 @@
+require("conf/monitors")
+require("conf/env")
+require("conf/autostart")
+require("conf/plugins")
+require("conf/look")
+require("conf/input")
+require("conf/keybinds")
+require("conf/rules")
