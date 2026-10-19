@@ -1,0 +1,70 @@
+@import "~/.config/rofi/colors.rasi"
+
+* {
+    font: "monospace 12";
+}
+
+window {
+    width: 600px;
+    background-color: @surface;
+    border: 2px;
+    border-color: @primary;
+    border-radius: 16px;
+}
+
+mainbox {
+    background-color: transparent;
+    padding: 12px;
+    spacing: 10px;
+    children: [ inputbar, listview ];
+}
+
+inputbar {
+    background-color: @surface-container;
+    border-radius: 10px;
+    padding: 8px 12px;
+    spacing: 8px;
+    children: [ prompt, entry ];
+}
+
+prompt {
+    background-color: transparent;
+    text-color: @primary;
+}
+
+entry {
+    background-color: transparent;
+    text-color: @on-surface;
+    placeholder: "Suche...";
+    placeholder-color: @outline;
+}
+
+listview {
+    background-color: transparent;
+    lines: 8;
+    columns: 1;
+    scrollbar: false;
+}
+
+element {
+    background-color: transparent;
+    text-color: @on-surface;
+    border-radius: 10px;
+    padding: 8px 12px;
+    spacing: 10px;
+}
+
+element selected.normal {
+    background-color: @primary;
+    text-color: @on-primary;
+}
+
+element-icon {
+    background-color: transparent;
+    size: 1.4em;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}
